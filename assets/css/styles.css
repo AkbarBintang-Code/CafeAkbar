@@ -340,7 +340,7 @@ body.dark-theme {
 .home__kopi1,
 .home__kopi2 {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .home__kopi1 {
@@ -411,7 +411,7 @@ body.dark-theme {
 .about__kopi4 {
   position: absolute;
   width: 70px;
-  opacity: 0.3;
+  opacity: 0.2;
   left: -1.5rem;
   bottom: 11rem;
   transform: rotate(-10deg) translateX(30px) ;
@@ -420,7 +420,7 @@ body.dark-theme {
 .about__kopi3 {
   position: absolute;
   width: 80px;
-  opacity: 0.3;
+  opacity: 0.2;
   right: -1.5rem;
   bottom: 11rem;
   transform: rotate(15deg) translateY(150px) translateX(5px);
@@ -438,7 +438,7 @@ body.dark-theme {
 .popular__kopi9,
 .popular__kopi10 {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .popular__kopi5 {
@@ -446,6 +446,7 @@ body.dark-theme {
   left: -1.5rem;
   bottom: 11rem;
   transform: rotate(15deg) translateX(-110px) translateY(-500px);
+  z-index: 0;
 }
 
 .popular__kopi6 {
@@ -453,6 +454,7 @@ body.dark-theme {
   right: -1.5rem;
   bottom: 11rem;
   transform: rotate(-15deg) translateY(130px) translateX(-50px);
+  z-index: 0;
 }
 
 .popular__kopi7 {
@@ -460,6 +462,7 @@ body.dark-theme {
   left: -1.5rem;
   bottom: 11rem;
   transform: rotate(-15deg) translateX(145px) translateY(-450px);
+  z-index: 0;
 }
 
 .popular__kopi8 {
@@ -467,6 +470,7 @@ body.dark-theme {
   right: -1.5rem;
   bottom: 11rem;
   transform: rotate(15deg) translateY(170px) translateX(20px);
+  z-index: 0;
 }
 
 .popular__kopi9 {
@@ -474,6 +478,7 @@ body.dark-theme {
   left: -1.5rem;
   bottom: 11rem;
   transform: rotate(15deg) translateX(-30px) translateY(-200px);
+  z-index: 0;
 }
 
 .popular__kopi10 {
@@ -481,6 +486,7 @@ body.dark-theme {
   right: -1.5rem;
   bottom: 11rem;
   transform: rotate(-15deg) translateY(90px) translateX(-45px);
+  z-index: 0;
 }
 
 .popular__container {
@@ -498,6 +504,7 @@ body.dark-theme {
   border-radius: 1rem;
   text-align: center;
   transition: background-color 0.4s; /* for dark mode animation */
+  z-index: 1;
 }
 
 .popular__img {
@@ -858,16 +865,46 @@ body.dark-theme {
     font-size: 2rem;
   }
 
-  .home__leaf-1 {
+  .home__kopi1 {
     top: 5rem;
   }
-  .home__leaf-2 {
+
+  .home__kopi2 {
     bottom: 0;
   }
 
-  .about__leaf {
+  .about__kopi4{
+    top: 5rem;
+  }
+
+  .about__kopi3{
     bottom: 8rem;
   }
+  
+  .popular__kopi5{
+    top: 5rem;
+  }
+
+  .popular__kopi6{
+    bottom: 8rem;
+  }
+
+  .popular__kopi7{
+    top: 5rem;
+  }
+
+  .popular__kopi8{
+    bottom: 8rem;
+  }
+
+  .popular__kopi9{
+    top: 5rem;
+  }
+
+  .popular__kopi10{
+    bottom: 8rem;
+  }
+
   .recently__data-img {
     right: 0.5rem;
   }
@@ -1017,6 +1054,7 @@ body.dark-theme {
   .popular__card {
     padding: 7.5rem 2rem 2rem;
     border-radius: 1.5rem;
+    z-index: 1;
   }
 
   .popular__img {
