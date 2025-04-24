@@ -627,10 +627,11 @@ body.dark-theme {
 
 .newsletter__img {
   width: 250px;
-  max-width: 100%;
+  max-width: 25%;
   position: absolute;
   top: -4.5rem;
   left: -8rem;
+  transform: translateX(170px) translateY(100px);;
 }
 
 .newsletter__data .section__title {
@@ -1058,7 +1059,9 @@ body.dark-theme {
   }
   .newsletter__img {
     position: initial;
-    width: 350px;
+    width: 400px;
+    max-width: 100%;
+    transform: translateX(30px) ;
   }
   .newsletter .section__subtitle,
   .newsletter .section__title {
