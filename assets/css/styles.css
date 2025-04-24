@@ -347,13 +347,13 @@ body.dark-theme {
   width: 80px;
   top: 8rem;
   left: -1rem;
-  transform: rotate(10deg) translateX(55px) ;
+  transform: rotate(10deg) translateX(20px) ;
 }
 .home__kopi2 {
   width: 80px;
   right: -2rem;
   bottom: 1rem;
-  transform: rotate(-10deg) translateX(-50px) ;
+  transform: rotate(-10deg) translateX(-30px) ;
 }
 
 /*=============== BUTTON ===============*/
@@ -414,7 +414,7 @@ body.dark-theme {
   opacity: 0.3;
   left: -1.5rem;
   bottom: 11rem;
-  transform: rotate(-10deg) translateX(70px) ;
+  transform: rotate(-10deg) translateX(30px) ;
 }
 
 .about__kopi3 {
@@ -423,7 +423,7 @@ body.dark-theme {
   opacity: 0.3;
   right: -1.5rem;
   bottom: 11rem;
-  transform: rotate(15deg) translateY(150px) translateX(-50px);
+  transform: rotate(15deg) translateY(150px) translateX(5px);
 }
 
 /*=============== POPULAR ===============*/
@@ -445,42 +445,42 @@ body.dark-theme {
   width: 80px;
   left: -1.5rem;
   bottom: 11rem;
-  transform: rotate(15deg) translateX(-25px) translateY(-500px);
+  transform: rotate(15deg) translateX(-110px) translateY(-500px);
 }
 
 .popular__kopi6 {
   width: 80px;
   right: -1.5rem;
   bottom: 11rem;
-  transform: rotate(-15deg) translateY(130px) translateX(-120px);
+  transform: rotate(-15deg) translateY(130px) translateX(-50px);
 }
 
 .popular__kopi7 {
   width: 80px;
   left: -1.5rem;
   bottom: 11rem;
-  transform: rotate(-15deg) translateX(222px) translateY(-450px);
+  transform: rotate(-15deg) translateX(145px) translateY(-450px);
 }
 
 .popular__kopi8 {
   width: 80px;
   right: -1.5rem;
   bottom: 11rem;
-  transform: rotate(15deg) translateY(170px) translateX(-60px);
+  transform: rotate(15deg) translateY(170px) translateX(20px);
 }
 
 .popular__kopi9 {
   width: 70px;
   left: -1.5rem;
   bottom: 11rem;
-  transform: rotate(15deg) translateX(35px) translateY(-200px);
+  transform: rotate(15deg) translateX(-30px) translateY(-200px);
 }
 
 .popular__kopi10 {
   width: 80px;
   right: -1.5rem;
   bottom: 11rem;
-  transform: rotate(-15deg) translateY(90px) translateX(-120px);
+  transform: rotate(-15deg) translateY(90px) translateX(-45px);
 }
 
 .popular__container {
