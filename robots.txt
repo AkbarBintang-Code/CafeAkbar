@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cafe-akbar.vercel.app/sitemap.xml
