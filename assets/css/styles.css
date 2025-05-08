@@ -595,7 +595,6 @@ body.dark-theme {
 
 .recently__img {
   width: 300px;
-  max-width: 50%;
   justify-self: center;
 }
 
@@ -617,6 +616,7 @@ body.dark-theme {
   bottom: 12rem;
   transform: rotate(-30deg);
 }
+
 /*=============== NEWSLETTER ===============*/
 .newsletter__container {
   position: relative;

@@ -46,21 +46,29 @@ const sections = document.querySelectorAll("section[id]");
 
 const scrollActive = () => {
   const scrollY = window.scrollY;
+  let currentSectionId = "";
 
   sections.forEach((current) => {
-    const sectionHeight = current.offsetHeight,
-      sectionTop = current.offsetTop - 58,
-      sectionId = current.getAttribute("id"),
-      sectionClass = document.querySelector(".nav__menu a[href*=" + sectionId + "]");
+    const sectionHeight = current.offsetHeight;
+    const sectionTop = current.offsetTop - 58;
 
-    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      sectionClass.classList.add("active-link");
-    } else {
-      sectionClass.classList.remove("active-link");
+    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+      currentSectionId = current.getAttribute("id");
+    }
+  });
+
+  const navLinks = document.querySelectorAll(".nav__menu a");
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active-link");
+    if (link.getAttribute("href") === "#" + currentSectionId) {
+      link.classList.add("active-link");
     }
   });
 };
+
 window.addEventListener("scroll", scrollActive);
+
 /*=============== DARK LIGHT THEME ===============*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
